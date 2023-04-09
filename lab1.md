@@ -29,6 +29,6 @@ Now that you are remotely connected you can try out some commands
 3. Do any of the commands cause errors (look at ls <directory>)
  
  
-##Congrats you have completed the Remote Server Tutorial!!!
+## Congrats you have completed the Remote Server Tutorial!!!
 
  
