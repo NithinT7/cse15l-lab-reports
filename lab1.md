@@ -24,6 +24,7 @@ The image above should be your result after following the steps correctly
 Now that you are remotely connected you can try out some commands
 ![Image](Screenshot 2023-04-08 at 10.33.36 PM.png)
 *Example above*
+*Note cd ~ allows you to change directories and in this instance ~ changes directories to the home directory. ls -lat lists content in the directory and -lat lists all the files in the working directory. 
 1. Play with some commands provided here: cd, ls, mkdir, cp, cd ~, ls -lat, ls <directory>
 2. Observe what they do, and try to pinpoint the purpose for each command
 3. Do any of the commands cause errors (look at ls <directory>)
