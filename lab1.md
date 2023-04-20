@@ -25,7 +25,7 @@ Now that you are remotely connected you can try out some commands
 ![Image](Screenshot 2023-04-08 at 10.33.36 PM.png)
 *Example above*
 1. Play with some commands provided here: cd, ls, mkdir, cp, cd ~, ls -lat, ls <directory>
- *Example of what some commands do: cd allows you to change directories and in the instance cd ~ changes directories to the home directory, ls lists content in the directory, cp copies folder or files.
+ *Example of what some commands do: cd allows you to change directories and in the instance cd ~ changes directories to the home directory, ls lists content in the directory, cp copies folder or files.*
 2. Observe what they do, and try to pinpoint the purpose for each command
 3. Do any of the commands cause errors (look at ls <directory>)
  
