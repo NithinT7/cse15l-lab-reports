@@ -111,7 +111,9 @@ This test showcases the failure with a failure inducing input:
  *The output is in the wrong order*  
  
  Test that doesn't induce bug (The 2nd test is testMerge() which is irrelevant for this):
+ 
  ![Image](Screenshot 2023-04-22 at 2.49.38 PM.png)
+ 
  *The output is correct*  
  
  The method before bug was removed:  
