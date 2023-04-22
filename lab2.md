@@ -50,7 +50,8 @@ class StringServer {
 
 
 ## Part 2: Lab 3 Bug
-There was a bug in the Filter() method in the ListExamples class.
+There was a bug in the Filter() method in the ListExamples class.  
+
 Method:
  ```
  static List<String> filter(List<String> list, StringChecker sc) {
@@ -107,11 +108,14 @@ This test showcases the failure with a failure inducing input:
  Symptoms of running both tests:
  Test that induces bug:
  ![Image](Screenshot 2023-04-22 at 2.41.35 PM.png)
- *The output is in the wrong order*
+ *The output is in the wrong order*  
+ 
  Test that doesn't induce bug (The 2nd test is testMerge() which is irrelevant for this):
  ![Image](Screenshot 2023-04-22 at 2.49.38 PM.png)
- *The output is correct*
- The method before bug was removed:
+ *The output is correct*  
+ 
+ The method before bug was removed:  
+ 
  Method:
  ```
  static List<String> filter(List<String> list, StringChecker sc) {
@@ -124,7 +128,8 @@ This test showcases the failure with a failure inducing input:
     return result;
   }
 ```
-The method after bug was removed:
+The method after bug was removed:  
+
 Method:
  ```
  static List<String> filter(List<String> list, StringChecker sc) {
