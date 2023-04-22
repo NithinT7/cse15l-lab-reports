@@ -105,9 +105,12 @@ This test showcases the failure with a failure inducing input:
         assertEquals("a", result.get(0));    
     }
  ```
- Symptoms of running both tests:
+ Symptoms of running both tests:  
+ 
  Test that induces bug:
+ 
  ![Image](Screenshot 2023-04-22 at 2.41.35 PM.png)
+ 
  *The output is in the wrong order*  
  
  Test that doesn't induce bug (The 2nd test is testMerge() which is irrelevant for this):
