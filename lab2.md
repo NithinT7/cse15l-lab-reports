@@ -40,9 +40,9 @@ class StringServer {
 }
 ```
 ![Image](Screenshot 2023-04-22 at 1.38.45 PM.png)
-*Added the words "Words" and "Haribo"
+*Added the words "Words" and "Haribo"*
 ![Image](Screenshot 2023-04-22 at 1.40.00 PM.png)
-*Added the word "Chrome"
+*Added the word "Chrome"*
 
 1. For both screenshots the main method was initailly called to start the server and both would call the handler method which would look for the path the user entered.
 2. For both screenshots the relevant arguments for the main method is an argument the user passes which would be the port number and for handler would be the word the user would pass in the form add-message?s=[WORD]. The relevant fields are int port which hold the port number, String statement which holds the words the user passes in, and String[] parameters which holds the arguments the user passes in and s.
