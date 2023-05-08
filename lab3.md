@@ -101,3 +101,58 @@ technical/biomed/1471-2091-3-4.txt
 The command -N adds a line count to the less output. This is useful especially when you want to reference a specific line to someone in a document.
 
 Source: https://phoenixnap.com/kb/less-command-in-linux
+
+## 3rd Option: G
+
+### Example 1:
+Input:
+```
+[cs15lsp23ox@ieng6-203]:stringsearch-data:100$ less technical/government/Media/AP_LawSchoolDebts.txt
+G
+```
+Output:
+```
+surveyed - government offices, legal aid organizations, public
+defenders and other nonprofit groups - reported recruiting
+difficulties. Most blamed the combination of low starting salaries
+and high law school loans for discouraging law students from public
+service jobs.
+The report encourages law schools and employers to create
+programs to help students who choose public service pay back loans
+in their lower-paying jobs. A few schools, including Harvard, New
+York and Georgetown universities, already have them.
+The median starting salary last year at private law firms, was
+$90,000. By contrast, public interest groups pay new graduates
+about $35,000, while government pays $40,000 to $45,000.
+
+
+
+
+(END)
+```
+
+### Example 2:
+Input:
+```
+[cs15lsp23ox@ieng6-203]:stringsearch-data:102$ less technical/biomed/1471-2105-3-26.txt
+G
+```
+Output:
+```
+        Authors' Contributions
+        Author 1, MAG, carried out sample preparation, RNA
+        isolation, data analysis, functional taxonomy analysis and
+        drafted the manuscript. Author 2, TC, carried out the
+        immunohistochemistry. Author 3, MZM, performed the
+        clustering analysis. Author 4, SJM, directed the team who
+        carried out the Affymetrix GeneChip hybridizations and
+        initial data processing. Author 4 MAR provided the samples
+        and reviewed the manuscript. Author 6 EPK conceived the
+        study and participated it its design and assisted in
+        writing the manuscript.
+      
+    
+  
+(END)
+```
+The command goes to the last line of the file after already using the less command. This could be useful to quickly jump though a file.
