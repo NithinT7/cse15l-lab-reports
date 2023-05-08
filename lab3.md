@@ -1,6 +1,7 @@
 # Researching the less command
-
+---
 ## 1st Option: less -m
+---
 ### Example 1:
 Input:
 ```
@@ -46,8 +47,9 @@ technical/plos/journal.pbio.0020013.txt 9%
 The command outputs the % of the file shown instead of a simple colon at the end of the block. This is useful to see the extent of the length of the file content.
 
 Source: https://phoenixnap.com/kb/less-command-in-linux
-
+---
 ## 2nd Option: less -N
+---
 ### Example 1:
 Input:
 ```
@@ -101,9 +103,9 @@ technical/biomed/1471-2091-3-4.txt
 The command -N adds a line count to the less output. This is useful especially when you want to reference a specific line to someone in a document.
 
 Source: https://phoenixnap.com/kb/less-command-in-linux
-
+---
 ## 3rd Option: G
-
+---
 ### Example 1:
 Input:
 ```
@@ -158,8 +160,9 @@ Output:
 The command goes to the last line of the file after already using the less command. This could be useful to quickly jump though a file.
 
 Source: https://ss64.com/bash/less.html
-
+---
 ## 4th Option: &pattern
+---
 ### Example 1:
 Input:
 ```
