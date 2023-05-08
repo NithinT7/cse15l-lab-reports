@@ -156,3 +156,66 @@ Output:
 (END)
 ```
 The command goes to the last line of the file after already using the less command. This could be useful to quickly jump though a file.
+
+Source: https://ss64.com/bash/less.html
+
+## 4th Option: &pattern
+### Example 1:
+Input:
+```
+[cs15lsp23ox@ieng6-203]:stringsearch-data:109$ less technical/government/Alcohol_Problems/Session4-PDF.txt
+&motivation
+```
+Output:
+```
+How-ever, motivation can facilitate treatment. Studies suggest that
+to one session and consisted of less than one hour of motivational
+motivational interventions" are the intervention model most likely
+that brief motivational counseling ranks near the top in four
+motivation while waiting for access to publicly funded
+motivation.50 As a result, their services may be more effective
+the effects of a brief motivational intervention for injured
+should prefer motivational strategies. He observed concern during
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+& (END)
+```
+### Example 2:
+Input:
+```
+[cs15lsp23ox@ieng6-203]:stringsearch-data:109$ less technical/biomed/1471-2121-4-4.txt
+&functions
+```
+Output:
+```
+        family serve diverse functions in developmental processes,
+        identified. However, their functions and ligand
+        essential in signaling. While the functions of Fz and Dsh
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+& (END)
+```
+The command matches the pattern a user inputs and only displays those lines after less has ran. This could be useful to find lines with key words.
+
+Source: ChatGPT search asking to find me cool commands I can try with less.
