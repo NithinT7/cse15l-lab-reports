@@ -44,3 +44,55 @@ Inside eukaryotic cells there is a massive protein complex called the proteasome
 technical/plos/journal.pbio.0020013.txt 9%
 ```
 The command outputs the % of the file shown instead of a simple colon at the end of the block. This is useful to see the extent of the length of the file content.
+
+## 2nd Option: less -N
+### Example 1:
+Input:
+```
+[cs15lsp23ox@ieng6-203]:stringsearch-data:86$ less -N technical/government/Gen_Account_Office/June30-2000_gg00135r.txt
+```
+Output:
+```
+      1 
+      2 
+      3 
+      4 
+      5 Results in Brief
+      6 All five of the regulatory agencies that we examined were using
+      7 some form of IT to notify the public about opportunities to
+      8 participate in rulemaking and to facilitate the receipt of public
+      9 comments. All of these agencies had web sites that conveyed
+     10 rulemaking information to the public and/or maintained some
+     11 rulemaking records in electronic form, and all of them accepted
+     12 electronic comments for at least some of their proposed rules.
+     13 However, the specific features and uses of IT differed
+     14 significantly between and sometimes within the agencies. For
+     15 example, DOT had established an Internet web site that housed
+     16 regulatory information for every agency within the department and
+technical/government/Gen_Account_Office/June30-2000_gg00135r.txt
+```
+### Example 2:
+Input: 
+```
+[cs15lsp23ox@ieng6-203]:stringsearch-data:87$ less -N technical/biomed/1471-2091-3-4.txt 
+```
+Output:
+```
+      1 
+      2   
+      3     
+      4       
+      5         Background
+      6         The overuse of antibiotics in the clinic and for
+      7         agricultural uses has resulted in a tremendous selective
+      8         pressure for antibiotic resistant bacteria. These bacteria
+      9         become resistant by a number of mechanisms, such as
+     10         producing enzymes that hydrolyze or inactivate the
+     11         antibiotics, producing efflux pumps that transport the
+     12         antibiotic out of the cell, or modifying their cell wall
+     13         components so they no longer bind effectively to the
+     14         antibiotics [ 1 2 3 ] . The most common, least expensive,
+     15         and effective antibiotics are the <CE><B2>-lactam containing
+     16         antibiotics, such as the penicillins, cephalosporins, and
+technical/biomed/1471-2091-3-4.txt
+```
