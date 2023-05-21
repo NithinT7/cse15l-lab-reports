@@ -9,6 +9,7 @@ The commands ran incude ssh which enables connection to the server and from ther
 
 ---
 ## Cloning fork from Github Account:
+![Image][Screenshot 2023-05-21 at 2.31.45 PM.png]
 
 Keys pressed: ```git clone <ctrl+v>```
 
