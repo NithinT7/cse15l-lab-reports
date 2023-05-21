@@ -39,3 +39,12 @@ Keys pressed: ```<up><up><up><up><up><up><enter><up><up><up><up><up><up><enter><
 
 The commands used were the same commands used to compile the files and run ListExamplesTests as previously, but the keystrokes showcase using previous command line memory and not typing out the steps once again. Refer to the first case where I demonstrated where tests fail to see what the commands do. The tests passed this time :)
 
+---
+
+## Push change to Github
+![Image][Screenshot 2023-05-21 at 3.15.40 PM.png]
+
+Keys pressed: ```<git><space><add><ListExamples.java><enter><git><space><commit><space><-m><space><"Changed last instance of index1 to index2: fixed error"><enter><git><space><push><space><-u><space><origin><space><master>```
+
+The commands used were git add which adds ListExamples.java to the staging area, then git commit -m which commits the file ready to pushed with a message attached to it, and git push -u origin master which basically push the changed file to the public and on my account which is why origin master is needed.
+
