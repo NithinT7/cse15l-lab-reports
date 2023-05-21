@@ -24,6 +24,11 @@ Keys pressed:```<ls><cd><space><lab7><javac><space><ListExamples.java><enter><ja
 There were multiple commands run. The ls command was to find directories within our active directory then we knew which directory to cd (change directory) into from their I compiled ListExamples.java using javac and compiled junit using javac and ctrl+v which pasted the command (-cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java) which is the command to compile junit. After I ran the tests on ListExamplesTests with the command I pasted over (-cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore).
 
 ---
+## Edit the code to fix the test
+![Image][Screenshot 2023-05-21 at 3.00.49 PM.png]
 
+Keys pressed: ```<vim><space><ListExamples.java><?index1><5l><x><i><2><esc><:wq>```
+
+The command vim allows you to edit files contents in the terminal which I used on ListExamples.java to fix its code. The problem with the code is that the last instance of index1 is supposed to be index2. To fix that I went to the last instance of index1 with ?index1 and then 5l goes to the right 5 spaces which is where 1 is, then I delete the 1 using x and replace it with i (insert mode) 2. To save the changes I hit escape and :wq.
 
 
