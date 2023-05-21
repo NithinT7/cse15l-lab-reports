@@ -31,4 +31,11 @@ Keys pressed: ```<vim><space><ListExamples.java><?index1><5l><x><i><2><esc><:wq>
 
 The command vim allows you to edit files contents in the terminal which I used on ListExamples.java to fix its code. The problem with the code is that the last instance of index1 is supposed to be index2. To fix that I went to the last instance of index1 with ?index1 and then 5l goes to the right 5 spaces which is where 1 is, then I delete the 1 using x and replace it with i (insert mode) 2. To save the changes I hit escape and :wq.
 
+---
+## Check if the tests work
+![Image][Screenshot 2023-05-21 at 3.03.53 PM.png]
+
+Keys pressed: ```<up><up><up><up><up><up><enter><up><up><up><up><up><up><enter><up><up><up><up><up><up><enter>```
+
+The commands used were the same commands used to compile the files and run ListExamplesTests as previously, but the keystrokes showcase using previous command line memory and not typing out the steps once again. Refer to the first case where I demonstrated where tests fail to see what the commands do. The tests passed this time :)
 
