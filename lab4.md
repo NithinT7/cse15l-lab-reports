@@ -6,5 +6,6 @@
 Keys pressed: ssh cs15lsp23ox@ieng6.ucsd.edu<enter><Password><enter>
 
 The commands ran incude ssh which enables connection to the server and from there I entered my username and password to access the ineg6 server.
+
 ---
 
