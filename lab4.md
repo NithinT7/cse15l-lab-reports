@@ -10,3 +10,7 @@ The commands ran incude ssh which enables connection to the server and from ther
 ---
 ## Cloning fork from Github Account:
 
+Keys pressed: ```git clone <ctrl+v>```
+
+The command ran is git clone which clones the git repo into the local files and ctrl+v pasted over the url for the repo which was https://github.com/NithinT7/lab7.git. 
+
