@@ -5,7 +5,7 @@
 
 Keys pressed: ```<ssh><space><cs15lsp23ox@ieng6.ucsd.edu><enter><Password><enter>```
 
-The commands ran incude ssh which enables connection to the server and from there I entered my username and password to access the ineg6 server.
+The commands ran incude ssh which enables connection to the server and from there I entered my username and password to access the ieng6 server.
 
 ---
 ## Cloning fork from Github Account:
